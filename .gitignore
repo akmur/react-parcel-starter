@@ -52,6 +52,7 @@ Temporary Items
 ######################
 node_modules
 .env
+package-lock.json
 
 # Testing #
 ######################
@@ -60,6 +61,7 @@ node_modules
 # Production #
 ######################
 /build
+/dist
 
 # Logs #
 ######################
@@ -100,4 +102,5 @@ config.codekit*
 .env.test.local
 .env.production.local
 .next
-package-lock.json
+/cache
+
